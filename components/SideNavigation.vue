@@ -51,7 +51,7 @@
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-Social">
           <a
-            href="https://line.me/R/ti/p/%40822sysfc"
+            href="https://line.me/R/ti/p/%40554yknhv"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
@@ -62,7 +62,7 @@
             </picture>
           </a>
           <a
-            href="https://twitter.com/tokyo_bousai"
+            href="https://twitter.com/pref_toyama"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
@@ -73,18 +73,7 @@
             </picture>
           </a>
           <a
-            href="https://www.facebook.com/tochokoho"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="SideNavigation-SocialLink"
-          >
-            <picture>
-              <source srcset="/facebook.webp" type="image/webp" />
-              <img src="/facebook.png" alt="Facebook" />
-            </picture>
-          </a>
-          <a
-            href="https://github.com/tokyo-metropolitan-gov/covid19"
+            href="https://github.com/toyamarb/covid19"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
@@ -107,7 +96,7 @@
           </a>
           {{ $t('の下に提供されています。') }}
           <br />
-          2020 Tokyo Metropolitan Government
+          2020 ©Toyama.rb
         </small>
       </footer>
     </div>
@@ -159,8 +148,8 @@ export default Vue.extend({
         },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('都民の皆様へ'),
-          link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
+          title: this.$t('新型コロナウイルス感染症に関する情報'),
+          link: 'http://www.pref.toyama.jp/sections/1118/virus/index.html'
         },
         {
           icon: 'mdi-domain',
@@ -169,19 +158,16 @@ export default Vue.extend({
           divider: true
         },
         {
-          title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
-          link:
-            'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
+          title: this.$t('富山県新型コロナウイルス感染症対策本部会議'),
+          link: 'http://www.pref.toyama.jp/cms_sec/1205/kj00021555.html'
         },
         {
-          title: this.$t('東京都主催等 中止又は延期するイベント等'),
-          link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event00.html'
+          title: this.$t('行事予定一覧'),
+          link: 'http://www.pref.toyama.jp/cms_sec/1118/kj00000214-002-01.html'
         },
         {
           title: this.$t('知事からのメッセージ'),
-          link:
-            'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
+          link: 'http://www.pref.toyama.jp/cms_sec/1118/kj00020264-056-01.html'
         },
         {
           title: this.$t('当サイトについて'),
@@ -192,8 +178,8 @@ export default Vue.extend({
           link: this.localePath('/contacts')
         },
         {
-          title: this.$t('東京都公式ホームページ'),
-          link: 'https://www.metro.tokyo.lg.jp/'
+          title: this.$t('富山県公式ホームページ'),
+          link: 'http://www.pref.toyama.jp/'
         }
       ]
     }
