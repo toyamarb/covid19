@@ -1,3 +1,10 @@
+### ※別の有志開発者によって一足先に同一目的のサイトが公開されました。**
+### https://stopcovid19-toyama.netlify.com/
+### https://github.com/Terachan0117/covid19-toyama
+### サイトが散在するのは利用者にとって不利益となるため、本リポジトリではなく上記リポジトリへのコントリビューションをお願いします。
+
+--------
+
 [東京都 新型コロナウイルス感染症対策サイト](https://github.com/tokyo-metropolitan-gov/covid19)から派生しています。
 
 # 富山県(非公式) 新型コロナウイルス感染症対策サイト
